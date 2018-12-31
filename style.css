@@ -1,0 +1,52 @@
+* {
+  border-color: #1F271B;
+}
+body {
+  background-color: #FAE8EB;
+}
+h3 {
+  color: #0A014F;
+  background-color: #C4CBCA;
+  font-family: serif;
+  border-style: solid;
+  border-width: 1px;
+  width: 100%;
+  padding: 3px 0px 3px 3px;
+}
+.headingFormat {
+  background-color: #1F271B;
+  color: #F6CACA;
+  border-style: solid;
+  text-align: center;
+  padding: 5px;
+}
+p {
+  font-famlily: sans-serif;
+}
+.italicize {
+  font-style: italic;
+}
+.paragraph1, .paragraph2 {
+  width: 49%;
+  float: left;
+  padding: 5px;
+}
+.image1 {
+  width: 48%;
+  clear: left;
+  padding: 0% 1% 0% 1%;
+  float: left;
+}
+.image2 {
+  width: 48%;
+  padding: 0% 1% 1% 0%;
+  float: left;
+}
+.listExamples {
+  clear: left;
+  width: 20%;
+  margin: auto;
+}
+.listExamples li {
+	padding-left: 10px;
+}
