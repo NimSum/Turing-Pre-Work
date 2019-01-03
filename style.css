@@ -1,74 +1,40 @@
 * {
   border-color: #1F271B;
+  box-sizing: border-box;
 }
 body {
-  background: linear-gradient(0deg, #CCFBFE, #9AC2C9 60%);
+  background-color: #D7F1F4;
 }
 #navBar {
   list-style-type: none;
+  text-align: center;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 #navBar li {
-  float: left;
+  display: inline;
 }
 #navBar li a {
-  display: block;
-  color: white;
-  text-align: center;
+  color: black;
+  display: inline-block;
   padding: 10px 10px;
   text-decoration: none;
 }
 #navBar li a:hover {
-  background-color: #111;
+  background-color: white;
 }
 
-#myLogo {
-  width: 5%;
-  float: left;
-}
 .mainHeader {
-  text-align: left;
+  text-align: center;
   margin: 0;
-  padding-left: 50px;
   border-bottom: solid 1px;
+  font-size: 2.5em;
 }
-
-h3 {
-  color: #0A014F;
-  background-color: #C4CBCA;
-  font-family: serif;
-  width: 50%;
+.imageContainer {
+  width: 100%;
 }
-
-p {
-  font-famlily: sans-serif;
-}
-.italicize {
-  font-style: italic;
-}
-.paragraph1, .paragraph2 {
-  width: 49%;
+.imageContainer img {
+  width: 33.33%;
   float: left;
-  padding: 5px;
-}
-.image1 {
-  width: 48%;
-  clear: left;
-  padding: 0% 1% 0% 1%;
-  float: left;
-}
-.image2 {
-  width: 48%;
-  padding: 0% 1% 1% 0%;
-  float: left;
-}
-.listExamples {
-  clear: left;
-  width: 20%;
-  margin: auto;
-}
-.listExamples li {
-	padding-left: 10px;
 }
