@@ -1,41 +1,89 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Test Page</title>
-	<link rel="stylesheet" href="style.css">
+  <title>Test Page</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
 </head>
 <body>
-<body>
+  <h1 id="mainHeader">Nimrod Garcia</h1>
   <ul id="navBar">
-    <div>
-      <!-- <a href="#"><img id="myLogo" src="/images/NG_logo.svg" alt="HTML5 Icon"">
-      </a> -->
-      <h1 class ="mainHeader">Nimrod Garcia</h1>
-    </div>
-    <li><a href="#about">About</a></li>
+    <li><a href="#myInterests">My Interests</a></li>
     <li><a href="#links">Links</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
-  <h2>About Me:</h2>
-  
+  <hr/>
+
   <div class="imageContainer">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/C-17_Globemaster_III_4.jpg" alt="C-17 Aircraft"/>
-    <img src="https://farm5.staticflickr.com/4654/25254688767_83c0563d06_b.jpg" alt="Falcon Heavy Demo Mission"/>
-    <img src="https://farm5.staticflickr.com/4654/25254688767_83c0563d06_b.jpg" alt="Falcon Heavy Demo Mission"/>
+    <h2>About Me:</h2>
+    <p>Born and raised in a small town in Luzon, Philippines. </p>
+    <img src="/images/phMap.png" alt="Luzon, Philippines Map"/>
+    <br/>
+    <p>Moved to Allen, Texas at the age of 13</p>
+    <img src="/images/allenTx.png" alt="Allen, Texas"/>
+    <br/>
+    <p>Joined the Military after High-School</p>
+    <img src="/images/USAF.png" alt="Airment Marshalling Aircraft"/>
   </div>
-  <div>
-    <h3>My Interests:</h3>
-    <ol>
-      <li>Rocket Technology</li>
-      <li>AI</li>
-      <li>Renewable Energy</li>
-      <li>Electric Cars</li>
-    </ol>
-  </div>
-  <h3>Links:</h3>
-  <p><a href="https://turing.io/">Turing</a></p>
-  <p><a href="https://github.com/NimSum">GitHub</a></p>
-  <p><a href="https://www.linkedin.com/in/nimrod-garcia/">LinkedIn</a></p>
+  <p class= "aboutParagraph">I was stationed in Dover, Delaware and I lived there for almost 6 years. Once my military contract was over, I moved back to Allen, Texas and travelled to Thailand, Malasia, and Singapore. After returning from the trip, I moved to Denver and that's what brought me here.  </p>
+  <br/>
+  <hr/>
+
+   <div id="myInterests">
+      <h2>My Interests:</h2>
+      <ul>
+        <li> Rocket Technology (Primarily SpaceX)
+          </li>
+        <li>Electric Longboards and Cars</li>
+        <li>Future Technologies:
+          <ol>
+            <li>AI / Machine Learning</li>
+            <li>Renewable Tech</li>
+            <li>Electrifying Everything</li>
+          </ol>
+        </li>
+        <li>Travelling</li>
+        <li>A variety of Asian Foods:
+          <ol>
+            <li>Hot Pot</li>
+            <li>K-BBQ</li>
+            <li>DimSum</li>
+            <li>Pho</li>
+          </ol>
+        </li>
+      </ul>
+    </div>
+    <br/>
+    <hr/>
+
+  <h2>Links:</h2>
+  <ul id="links">
+    <li><a href="https://turing.io/">Turing</a></li>
+    <br/>
+    <li><a href="https://github.com/NimSum">GitHub</a></li>
+    <br/>
+    <li><a href="https://www.linkedin.com/in/nimrod-garcia/">LinkedIn</a></li>
+  </ul>
+  <br/>
+  <hr/>
+
+  <h2>Contact me: </h2>
+    <form id="contact">
+      <span>Your Name: </span><input type="text" name="Name">
+      <br/>
+      <br/>
+      <textarea class="feedbackForm" name="feedback">Enter your message...</textarea>
+      <br/>
+      <input class="submitButton" type="submit" name="Send" value="Send">
+    </form>
+  <br/>
+  <hr/>
+
+  <span class="backToTop">
+    <a href="#mainHeader"><p>Back to Top</p></a>
+  </span>  
 </body>
-</body>
+<script src="app.js"></script>
 </html>
